@@ -1,0 +1,50 @@
+{
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "address": "YOUR_EMAIL@gmail.com",
+        "app_password": "YOUR_APP_PASSWORD_HERE",
+        "default_receiver": "YOUR_RECEIVER_EMAIL@gmail.com",
+        "mode": "browser",
+        "auto_send": true
+    },
+    "spotify": {
+        "client_id": "",
+        "client_secret": "",
+        "redirect_uri": "http://127.0.0.1:8888/callback"
+    },
+    "ollama": {
+        "chat_url": "http://localhost:11434/api/chat",
+        "generate_url": "http://localhost:11434/api/generate",
+        "model": "llama3.2",
+        "vision_model": "llava"
+    },
+    "assistant": {
+        "wake_word": "jarvis",
+        "user_title": "Sir",
+        "default_city": "London",
+        "voice_rate": 0,
+        "speak_greeting": true
+    },
+    "contacts": {
+        "me": "YOUR_RECEIVER_EMAIL@gmail.com"
+    },
+    "ui": {
+        "bottom_bar": {
+            "chat": true,
+            "telemetry": true,
+            "spotify": true,
+            "scratchpad": true,
+            "todo": true,
+            "viewer": true,
+            "overlay": true,
+            "mic": true,
+            "screenshot": true,
+            "sysinfo": true,
+            "vision": true,
+            "autovision": true,
+            "stop": true,
+            "settings": true
+        }
+    }
+}
